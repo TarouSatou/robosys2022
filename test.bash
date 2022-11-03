@@ -7,11 +7,18 @@ ng(){
       res=1
 }
 res=0
-
++ res=0
+### I/O TEST ###
 out=$(seq 5 | ./plus)
-[ "${out}" = 14 ] || ng ${LINENO}
-
+++ seq 5
+++ ./plus
++ out=15
+[ "${out}" = 15 ] || ng ${LINENO}
++ '[' 15 = 15 ']'
+      　 
 [ "$res" = 0 ] && echo OK
++ '[' 0 = 0 ']'
++ echo OK
+OK
 exit $res
-
-
++ exit 0
