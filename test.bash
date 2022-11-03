@@ -3,5 +3,8 @@
 #SPDX-License-Identifier:BSD-3-Clause
 
 ### I/O TEST ###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ]
+out=$(seq 5| ./plus)
+
+[ "${out}" = 15.0 ]
+
+
