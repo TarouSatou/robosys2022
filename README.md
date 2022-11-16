@@ -19,5 +19,9 @@ Dライセンスの下，再頒布および使用が許可されます．
       * [TarouSatourobosys202x]
       * (https://github.com/TarouSatou/robosys202x)
   * © 2022 Tarou Satou
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 
 
