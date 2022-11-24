@@ -8,7 +8,14 @@ ans=0.0
 for line in sys.stdin:
     line=line.rstrip()
     try:
-        ans+=int(line)
+        if int(line)>=10:
+            ans=ans*int(line)
+        else:
+            ans+=int(line)
     except:
-        ans+=float(line)
+        if float(line)>=10:
+            ans=ans*float(line)
+        else:
+            ans+=float(line)
+    
 print(ans)
