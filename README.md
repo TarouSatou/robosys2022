@@ -16,9 +16,4 @@
       * [TarouSatourobosys202x]
       * (https://github.com/TarouSatou/robosys202x)
   * © 2022 Tarou Satou
-<<<<<<< HEAD
-
-=======
->>>>>>> school
-
 
